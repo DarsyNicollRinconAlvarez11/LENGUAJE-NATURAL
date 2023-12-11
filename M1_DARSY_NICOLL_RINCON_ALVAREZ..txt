@@ -1,0 +1,94 @@
+EJERCICOS LENJUAJE NATURAL
+1 NOMBRE: Centímetros a Pulgadas
+ENTRADA: El numero en centímetros a convertir
+SALIDA: Longitud del número ingresado en pulgadas 
+PASOS:
+1.	Pedir al usuario el número a convertir en pulgadas, LongCentímetros
+2.	Leer el numero 
+3.	Realizar la siguiente operación para calcular la longitud en pulgadas LongPulgadas= LongCentímetros / 2.54
+4.	Mostrar un mensaje que diga “la longitud en pulgadas es” y colocar el resultado que dio en la operación anterior 
+5.	Terminar el programa 
+2 NOMBRE: Hora Futura
+ENTRADA: Hora actual t, un número entero de horas h
+SALIDA: La hora que marcará en horas h, partiendo de la hora actual t
+PASOS:
+1. Pedir y Leer el número de horas actual t
+2. Pedir y Leer el número de entero de horas h
+3. Si horas h NO es entero, decir un mensaje “El número ingresado no cumple con lo solicitado ya que debe ser un número entero” y terminar el programa.
+4. Hacer una suma del número de horas t, y horas h
+5. Mostrar el resultado de la suma, en un mensaje que diga “En horas h el reloj marcara” y poner el resultado de la suma
+6. terminar programa
+
+3 NOMBRE: Que nota necesito
+ENTRADA: Las primeras dos notas de los certámenes Nc, Nota del laboratorio NL y la nota máxima calificable Nm
+SALIDA: Nota Final Nf, basado en el resultado de las notas anteriores
+PASOS:
+1. pedir y leer la nota del certamen uno C1
+2. pedir y leer la nota del certamen dos C2
+3. pedir y Leer la nota del promedio de laboratorio NL
+4. hallar promedio de los certámenes Nc= (C1+C2)/2
+5. Nota final Nf=(Nc*0.7)+(Nl*0.3)
+6. nota necesaria= 60-Nf
+7. Mostrar el resultado final de Nf con un mensaje “La nota que debe
+necesitar para el certamen 3 es” y mostrar lo que hay en Nf
+
+4 NOMBRE: Número invertido 
+ENTRADA: Un número de tres dígitos 
+SALIDA: Entregar el numero pero en diferente orden
+PASOS:
+1.	Pedir el primer digito del numero 
+2.	Pedir el segundo digito del numero 
+3.	Pedir el tercer digito del numero 
+4.	Leer digito uno, dos y tres 
+5.	Cambiar de posición los tres dígitos del numero 
+6.	Mostrar el numero ya organizado diferente a su manera inicial 
+7.	Terminar programa 
+5 NOMBRE: Años Bisiestos  
+ENTRADA: Numero del año a verificar  
+SALIDA: Mostrar si es bisiesto o no
+PASOS:
+1.	Pedir y leer el año a verificar 
+2.	Verificar si el año es divisible por 4 o por 400, si es así mostrar un mensaje que diga “ el año es bisiesto 
+3.	De lo contrario si el año es divisible por 100 mostrar un mensaje que diga “ el año NO es bisiesto 
+4.	Terminar programa 
+6 NOMBRE: Edad 
+ENTRADA: fecha de cumpleaños dd/mm/aa y fecha actual dd/mm/aa
+SALIDA: Mostrar que edad tiene actualmente
+PASOS:
+1.	Pedir y leer día de cumpleaños 
+2.	Pedir y leer mes de cumpleaños 
+3.	Pedir y leer año de cumpleaños 
+4.	Pedir y leer día actual 
+5.	Pedir y leer mes actual 
+6.	Pedir y leer año actual 
+7.	Calcular así la diferencia de año Edad=AñoActual-AñoNac
+8.	Calcular si aún no ha cumplido años en el año actual. Si MesActual<MesCumple mostrar el siguiente mensaje “Usted va a cumplir”y pone la edad que va a cumplir según el cálculo anterior. Pero si MesActual>MesCumple mostrar “Usted ya cumplio ”y pone la edad que cumplio
+9.	Terminar programa 
+7 NOMBRE: Determinar Par
+ENTRADA: Numero a verificar
+SALIDA: Mostrar si el numero ingresado es par o no 
+PASOS:
+1.	Pedir y leer el número a verificar 
+2.	Si numero/2==0, es decir que si al dividirlo entre dos su residuo es 0 entonces el número es par de lo contrario  mostrar un mensaje que diga que es impar
+3.	 Terminar programa
+8 NOMBRE: Tiempo de viaje 
+ENTRADA: Tiempo de viaje de los tramos
+SALIDA: Mostrar la duración total de viaje 
+PASOS:
+1.	Pedir y leer el tiempo de viaje del primer tramo en minutos(0 para terminar)
+2.	Pedir y leer el tiempo de viaje del segundo tramo en minutos
+3.	Pedir y leer el tiempo de viaje del tercer tramo en minutos
+4.	Calcular la duración total del viaje asi. totalMinutos= tramo1+tramo2+tramo3
+5.	Calcular las horas y minutos totales. horas = totalMinutos/60 y minutos = totalMinutos%60
+6.	Mostrar “ la duración del viaje fue” y poner el resultado de horas + minutos
+9	Terminar programa 
+NOMBRE: Parte decimal 
+ENTRADA: Número real a verificar
+SALIDA: Mostrar la parte decimal del número ingresado
+PASOS:
+1.	Pedir y leer el número real a verificar 
+2.	Calcular la parte decimal. Decimal=numReal-entero
+3.	Mostrar el siguiente mensaje” la parte decimal del numero real es” y poner el resultado anterior 
+4.	Terminar programa
+
+
